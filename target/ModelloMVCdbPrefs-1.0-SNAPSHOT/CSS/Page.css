@@ -1,0 +1,178 @@
+body {
+    background-color: #d1bda1;
+}
+.headerLogo{
+    margin-left: 30px;
+}
+.topNavMenu a{
+    width: 20%;
+    background-color: white;
+    overflow: auto;
+    display: flow;
+    font-family: "Ribbon-condensed", sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 2px 2px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.a1{
+    margin-right: 25%;
+    margin-left: 5px
+}
+.a2{
+    margin-right: 28%;
+}
+.a3{
+    margin-right: 25%;
+}
+.topNavMenu a:hover {
+    background-color: grey;
+    color: white;
+}
+.homePageImg1{
+    margin-top: 20px;
+    float: left;
+    width: 30%;
+    resize: both;
+}
+.homePageImgVertical{
+    float: left;
+    resize: both;
+}
+.searchbar{
+    margin-top:40px;
+    width: 350px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://cdn.iconscout.com/icon/premium/png-256-thumb/search-find-magnifying-glass-1-38488.png');
+    background-size: 20px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+.ui-corner-right{
+    float: left;
+    width: 33.33%;
+    max-width: 250px;
+    margin-top: 10px;
+    align-content: center;
+    margin-left: 300px;
+}
+.cartButton{
+    position: absolute;
+    margin-left: 1150px;
+    margin-right: 30px;
+    margin-top: 80px;
+    background: none;
+    border-style: none;
+}
+
+.homepageTitle h3{
+    margin-left: 50px;
+}
+.homepageTitle p{
+    margin-left: 50px;
+    max-width: 180px;
+}
+.contacusBtn{
+    border-radius: 18px;
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 400px;
+    height: 30px;
+    font-size: 18px;
+}
+.termsBtn{
+    border-radius: 4px;
+    margin-top:50px;
+    margin-left: 50px;
+    width: 400px;
+    height: 30px;
+    font-size: 18px;
+}
+
+/*
+.zoom {
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.zoom img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.zoom:hover img {
+    transform: scale(1.5);
+}
+
+ */
+
+/* CSS della schermata di registrazione */
+
+
+.userFormInfo {
+    margin-left: 550px;
+}
+.userFormInfo label{
+    margin-top: 10px;
+    font-family: "Ribbon-condensed", sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+.userFormInfo input{
+    margin: 1px;
+    font-size: 13px;
+    font-family: "Ribbon-condensed", sans-serif;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+.slideshow-container{
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .slideshow-container{
+        display: block;
+    }
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
